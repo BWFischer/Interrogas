@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import debug from 'sabio-debug';
+import debug from '**Proprietary File';
 import ReactDOM from 'react-dom';
 import { Button } from 'react-bootstrap';
 import './pollster.css';
