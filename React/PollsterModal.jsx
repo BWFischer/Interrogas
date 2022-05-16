@@ -1,5 +1,5 @@
 import React from 'react';
-import debug from **PROPRIETARY FILE**
+import debug from **proprietary**
 import ReactDOM from 'react-dom';
 
 const PollsterModal = ({ props, setOpen }) => {
