@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logger from 'sabio-debug';
+import logger from '**PROPRIETARY FILE**';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Row, Col, Card, Button } from 'react-bootstrap';
