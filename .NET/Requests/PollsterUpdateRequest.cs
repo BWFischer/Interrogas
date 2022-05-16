@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Sabio.Models.Requests.Pollsters
+namespace Interrogas.Models.Requests.Pollsters
 {
     public class PollsterUpdateRequest : PollsterAddRequest, IModelIdentifier
     {
