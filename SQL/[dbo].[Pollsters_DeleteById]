@@ -1,0 +1,46 @@
+USE [Interrogas]
+GO
+/****** Object:  StoredProcedure [dbo].[Pollsters_DeleteById]    Script Date: 5/15/2022 5:24:37 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+/* =============================================
+-- Author: <Barnett Fischer>
+-- Create date: <03-24-2022>
+-- Description: Deletes Records by Id
+-- Code Reviewer: Justin Alcala
+
+-- MODIFIED BY: author
+-- MODIFIED DATE:04-22-2022
+-- Code Reviewer: Justin Alcala
+-- Note:
+-- ============================================*/
+
+ALTER proc [dbo].[Pollsters_DeleteById]
+						@Id int
+as
+
+/* ------------ Test Code ------------
+
+	Declare @Id int = 25
+
+	Select *
+	From dbo.Pollsters
+	WHERE Id = @id;
+
+	Execute dbo.Pollsters_DeleteById @Id
+
+	Select *
+	From dbo.Pollsters
+	WHERE Id = @Id;
+
+---------------------------------------*/
+
+BEGIN
+
+ 	DELETE FROM [dbo].[Pollsters]
+	WHERE Id = @Id;
+
+End
