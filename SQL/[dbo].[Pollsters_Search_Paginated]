@@ -1,0 +1,66 @@
+USE [Interrogas]
+GO
+/****** Object:  StoredProcedure [dbo].[Pollsters_Search_Paginated]    Script Date: 5/15/2022 5:33:46 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+/* =============================================
+-- Author: <Barnett Fischer>
+-- Create date: <03-24-2022>
+-- Description: Searches (By Name & Location) All Records & Returns with Pagination
+-- Code Reviewer:
+
+-- MODIFIED BY: author
+-- MODIFIED DATE:12/1/2020
+-- Code Reviewer: Justin Alcala
+-- Note:
+-- ============================================*/
+
+ALTER proc [dbo].[Pollsters_Search_Paginated]
+									@pageIndex int
+									,@pageSize int
+									,@Query nvarchar(100)
+
+/*-------------------- Test Code ----------------------- 
+
+		DECLARE @Query nvarchar(100) = 'LA'
+
+		DECLARE 
+			@pageIndex int = 0
+			,@pageSize int	= 10
+
+		Execute dbo.Pollsters_Search_Paginated
+											@pageIndex
+											,@pageSize
+											,@Query
+
+select *
+from dbo.Pollsters
+---------------------- Code Small---------------------- */
+as
+
+BEGIN
+
+				   Declare @offset int = @pageIndex * @pageSize
+
+ 				   SELECT [Id]
+				 	   ,[Name]
+				 	   ,[LogoUrl]
+					   ,[SiteUrl] 
+					   ,[Location]
+					   ,[DateCreated]
+					   ,[DateModified]
+					   ,TotalCount = COUNT(1) OVER()
+					 					  
+				   FROM [dbo].[Pollsters]
+
+				   WHERE (Name LIKE '%' + @Query + '%' OR 
+				   Location LIKE '%' + @Query + '%')
+
+				   ORDER BY [Id]
+				   OFFSET @offset Rows
+				   Fetch Next @pageSize Rows ONLY
+
+END
