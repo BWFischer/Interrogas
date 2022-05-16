@@ -1,0 +1,54 @@
+USE [Interrogas]
+GO
+/****** Object:  StoredProcedure [dbo].[Pollsters_SelectAll_Paginated]    Script Date: 5/15/2022 5:37:38 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+/* =============================================
+-- Author: <Barnett Fischer>
+-- Create date: <03-24-2022>
+-- Description: Selects All Records with Pagination
+-- Code Reviewer: 
+
+-- MODIFIED BY: author
+-- MODIFIED DATE:12/1/2020
+-- Code Reviewer: Justin Alcala
+-- Note:
+-- ============================================*/
+
+ALTER proc [dbo].[Pollsters_SelectAll_Paginated]
+											@pageIndex int
+											,@pageSize int
+
+/*-------------------- Test Code ----------------------- 
+
+		Declare 
+					@pageIndex int = 0
+					,@pageSize int	= 10
+					Execute dbo.Pollsters_SelectAll_Paginated
+											@pageIndex
+											,@pageSize
+
+---------------------- Code Small---------------------- */
+as
+
+BEGIN
+		Declare @offset int = @pageIndex * @pageSize
+		
+		SELECT [Id]
+				 	   ,[Name]
+				 	   ,[LogoUrl]
+					   ,[SiteUrl]
+					   ,[Location]
+					   ,[DateCreated]
+					   ,[DateModified]
+					   ,TotalCount = COUNT(1) OVER()
+
+		FROM [dbo].[Pollsters]
+		ORDER BY [Id]
+		OFFSET @offset Rows
+		Fetch Next @pageSize Rows ONLY
+
+END
