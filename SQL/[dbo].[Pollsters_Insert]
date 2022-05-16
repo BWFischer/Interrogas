@@ -1,0 +1,76 @@
+USE [Interrogas]
+GO
+/****** Object:  StoredProcedure [dbo].[Pollsters_Insert]    Script Date: 5/15/2022 5:28:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+/* =============================================
+-- Author: <Barnett Fischer>
+-- Create date: <03-24-2022>
+-- Description: Inserts Basic Information into the Pollster's Database
+-- Code Reviewer: Tim Isabella
+
+-- MODIFIED BY: author
+-- MODIFIED DATE:12/1/2020
+-- Code Reviewer:
+-- Note:
+-- ============================================*/
+
+ALTER proc [dbo].[Pollsters_Insert]
+
+				@Name nvarchar(255)
+				,@LogoUrl nvarchar(255)
+				,@SiteUrl nvarchar(255)
+				,@Location nvarchar(200)
+				,@Id int OUTPUT
+
+/* ------------------ Test Code ----------------
+
+Declare @Id int = 0;
+Declare
+				@Name nvarchar(255) = 'Database Filler 15'
+				,@LogoUrl nvarchar(255) = 'https://tinyurl.com/2yp7en4p'
+				,@SiteUrl nvarchar(255) = 'https://sabio.la/'
+				,@Location nvarchar(200) ='SabioDownTown LA'
+				
+
+				Execute dbo.Pollsters_Insert
+									 @Name
+									,@LogoUrl
+									,@SiteUrl
+									,@Location
+									,@Id OUTPUT									
+
+				Select @Id
+				Select *
+				from dbo.Pollsters
+				Where Id = @Id
+
+--------------------- Code Small --------------*/
+
+as
+
+BEGIN
+
+INSERT INTO [dbo].[Pollsters]
+				([Name]
+				,[LogoUrl]
+				,[SiteUrl]
+				,[Location]
+				)
+
+		VALUES 
+				(@Name
+				,@LogoUrl
+				,@SiteUrl
+				,@Location
+				)
+
+		SET @Id = SCOPE_IDENTITY()
+
+END
+
+
+
