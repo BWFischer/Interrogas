@@ -1,0 +1,83 @@
+USE [Interrogas]
+GO
+/****** Object:  StoredProcedure [dbo].[Pollsters_Update]    Script Date: 5/15/2022 5:42:27 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+/* =============================================
+-- Author: <Barnett Fischer>
+-- Create date: <03-24-2022>
+-- Description: Modifies the Information of a Single Record
+-- Code Reviewer: 
+
+-- MODIFIED BY: author
+-- MODIFIED DATE:12/1/2020
+-- Code Reviewer: Justin Alcala
+-- Note:
+-- ============================================*/
+
+ALTER proc [dbo].[Pollsters_Update]
+				 @Id int 
+				,@Name nvarchar(255)
+				,@LogoUrl nvarchar(255)
+				,@SiteUrl nvarchar(255)
+				,@Location nvarchar(200)
+				
+/* ------------------ Test Code ----------------
+	Declare @Id int = 38;
+	Declare 
+				@Name nvarchar(255) = 'Covarrubias y Asociados S.C.'
+				,@LogoUrl nvarchar(255) = NULL
+				,@SiteUrl nvarchar(255) = 'https://www.facebook.com/CovarrubiasyAsociados'
+				,@Location nvarchar(200) = 'Ciudad de México'
+		
+			Select *
+			From dbo.Pollsters
+			Where Id= @Id
+
+			Execute dbo.Pollsters_Update 
+									@Id
+									,@Name
+									,@LogoUrl
+									,@SiteUrl
+									,@Location
+
+			Select *
+			From dbo.Pollsters
+			Where Id= @Id
+
+--------------------- Code Small --------------*/
+as
+
+BEGIN
+
+	Declare @DateModified  datetime2(7) = getutcdate()
+
+	UPDATE [dbo].[Pollsters]
+						
+	SET [Name]  = @Name
+		,[LogoUrl] = @LogoUrl
+		,[SiteUrl] = @SiteUrl
+		,[Location] = @Location		
+		,[DateModified] = @DateModified
+
+	FROM [dbo].[Pollsters]
+	WHERE Id = @Id
+
+END
+
+/*
+UPDATE [dbo].[Surveyors]
+   SET [Name] = <Name, nvarchar(255),>
+      ,[LogoUrl] = <LogoUrl, nvarchar(255),>
+      ,[SiteUrl] = <SiteUrl, nvarchar(255),>
+      ,[Location] = <Location, nvarchar(200),>
+      ,[DateCreated] = <DateCreated, datetime2(7),>
+      ,[DateModified] = <DateModified, datetime2(7),>
+ WHERE <Search Conditions,,>
+*/
+
+
+
