@@ -6,4 +6,4 @@ Interrogas also provides forecast projections for upcoming elections based on th
 Additionally, Interrogas incorporates several administrative features that make managing the data easy.
 Further, Interrogas offers a variety of survey and mapping option features to help clarify the vast amount of information collected during the election cycles.”
 
-Interrogas is an MVP and due to the propietary nature of the code I can only provide snippets of my code.  This respository contains SQL, .NET and React code forthe Pollsters Feature,
+Interrogas is an MVP and due to the propietary nature of the code I can only provide snippets of my code.  This respository contains the essence of my SQL, .NET and React code for the Pollsters Feature.  
