@@ -1,0 +1,47 @@
+USE [Interrogas]
+GO
+/****** Object:  StoredProcedure [dbo].[Pollsters_SelectById]    Script Date: 5/15/2022 5:40:19 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+/* =============================================
+-- Author: <Barnett Fischer>
+-- Create date: <03-24-2022>
+-- Description: Selects a Specific Record by its Id
+-- Code Reviewer: 
+
+-- MODIFIED BY: author
+-- MODIFIED DATE:12/1/2020
+-- Code Reviewer: Justin Alcala
+-- Note:
+-- ============================================*/
+
+ALTER proc [dbo].[Pollsters_SelectById]
+				  @Id int 
+
+/*--------- Test Code --------- 
+
+				  Declare @Id int = 2
+			      Execute dbo.Pollsters_SelectById @Id
+
+				  Select *
+				  From dbo.Pollsters
+
+--------- Test Code --------- */
+as
+
+BEGIN
+
+				  SELECT [Id]
+				 	   ,[Name]
+				 	   ,[LogoUrl]
+					   ,[SiteUrl]
+					   ,[Location]
+					   ,[DateCreated]
+					   ,[DateModified]
+				   FROM [dbo].[Pollsters]
+				   Where Id = @Id
+
+END
