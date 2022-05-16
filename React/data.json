@@ -1,0 +1,354 @@
+[
+    {
+        "id": 1,
+        "name": "BEAP",
+        "logoUrl": "https://www.beapmexico.org/images/beap%20logo%20white-u756.png?crc=405688124",
+        "siteUrl": "https://www.beapmexico.org",
+        "location": "Puebla Pue",
+        "dateCreated": "2022-04-14T00:40:23.58",
+        "dateModified": "2022-04-14T04:04:19.5033333"
+    },
+    {
+        "id": 2,
+        "name": "Diseno y Analisis Demoscopico | GEA-ISA",
+        "logoUrl": "https://invesoc.com/images/Logo%20ISA.jpg",
+        "siteUrl": "https://invesoc.com",
+        "location": null,
+        "dateCreated": "2022-04-14T01:00:45.79",
+        "dateModified": "2022-04-14T15:57:12.68"
+    },
+    {
+        "id": 3,
+        "name": "Enfocate",
+        "logoUrl": "http://enfocateconsultores.org/site/wp-content/uploads/2019/12/logo_web19.png",
+        "siteUrl": "https://enfocateconsultores.org/site",
+        "location": "Ixtapa Zihuatanejo, Gro",
+        "dateCreated": "2022-04-14T01:00:45.79",
+        "dateModified": "2022-04-14T03:03:03.3466667"
+    },
+    {
+        "id": 4,
+        "name": "Estimma",
+        "logoUrl": "https://estimma.com.mx/wp-content/uploads/2020/11/logo-estimma-blue-mini.png",
+        "siteUrl": "https://www.instagram.com/estimma.mx/",
+        "location": "Monterrey, NL",
+        "dateCreated": "2022-04-14T01:00:45.79",
+        "dateModified": "2022-04-22T16:48:42.7033333"
+    },
+    {
+        "id": 5,
+        "name": "El Norte",
+        "logoUrl": "https://img.gruporeforma.com/promos_apps/app_elnorte_630x250.jpg",
+        "siteUrl": "https://www.elnorte.com/",
+        "location": "Monterrey, NL",
+        "dateCreated": "2022-04-14T01:00:45.79",
+        "dateModified": "2022-04-23T23:35:51.6133333"
+    },
+    {
+        "id": 6,
+        "name": "Foro Ciudadano",
+        "logoUrl": "https://www.forociudadano.org.mx/wp-content/uploads/2020/10/logo_portada_269.png",
+        "siteUrl": "https://www.forociudadano.org.mx/",
+        "location": "Villahermosa, Tabasco",
+        "dateCreated": "2022-04-14T01:00:45.79",
+        "dateModified": "2022-04-23T23:31:47.54"
+    },
+    {
+        "id": 7,
+        "name": "Heliga",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "http://www.heliga.mx",
+        "location": "Villahermosa, Tab",
+        "dateCreated": "2022-04-14T01:00:45.79",
+        "dateModified": "2022-04-23T23:32:54.5566667"
+    },
+    {
+        "id": 8,
+        "name": "Hersalcop",
+        "logoUrl": "https://pbs.twimg.com/profile_banners/1373162568/1638894703/1500x500",
+        "siteUrl": "https://twitter.com/hersalcopgroup",
+        "location": "Oaxaca, Oax",
+        "dateCreated": "2022-04-14T01:00:45.79",
+        "dateModified": "2022-04-23T23:32:18.0433333"
+    },
+    {
+        "id": 9,
+        "name": "Impulsos Mercadotecnia",
+        "logoUrl": "http://www.impulsos.com.mx/img/main_device_image.png",
+        "siteUrl": "http://www.impulsos.com.mx/",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:00:45.79",
+        "dateModified": "2022-04-23T23:25:57.3133333"
+    },
+    {
+        "id": 10,
+        "name": "Massive Caller",
+        "logoUrl": "https://www.massivecaller.com/images/logo_mc_sin_fondo_v4.png",
+        "siteUrl": "https://www.massivecaller.com",
+        "location": "Monterrey , NL",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-23T23:21:19.8633333"
+    },
+    {
+        "id": 11,
+        "name": "Maxmaf",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://maxmaf.com",
+        "location": "Monterrey N.L.",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-21T03:34:02.5133333"
+    },
+    {
+        "id": 12,
+        "name": "Mediametria",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://www.mediametria.com",
+        "location": "Veracruz",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-21T03:35:56.7033333"
+    },
+    {
+        "id": 13,
+        "name": "Metrica",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://transparencia.municipiodeoaxaca.gob.mx/metrica-gobierno-abierto",
+        "location": "Oaxaca",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-21T03:41:21.3533333"
+    },
+    {
+        "id": 14,
+        "name": "Poligrama",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://www.poligrama.mx",
+        "location": "Monterrey N.L.",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-21T03:42:44.4"
+    },
+    {
+        "id": 15,
+        "name": "Polymetrix",
+        "logoUrl": "https://static.wixstatic.com/media/fd77e9_bb0804174c3c440aae480be89daf4539~mv2.png/v1/fill/w_80,h_80,al_c,usm_0.66_1.00_0.01,enc_auto/PolymetrixTransparencia.png",
+        "siteUrl": "https://www.polymetrix.mx/",
+        "location": "Guadalajara, Jal",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T03:35:50.56"
+    },
+    {
+        "id": 16,
+        "name": "Proyecta",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://www.facebook.com/somosproyecta",
+        "location": "Monterrey N.L.",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-21T03:44:52.64"
+    },
+    {
+        "id": 17,
+        "name": "Buendia & Laredo",
+        "logoUrl": "https://buendiaymarquez.org/wp-content/uploads/2019/05/logoHeader_03.jpg",
+        "siteUrl": "https://buendiaymarquez.org",
+        "location": "Puebla Pue",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:07:57.32"
+    },
+    {
+        "id": 18,
+        "name": "Berumen",
+        "logoUrl": "https://berumen.com.mx/wp-content/uploads/2020/03/logo-berumen-oficial.png",
+        "siteUrl": "https://berumen.com.mx",
+        "location": "Ciudad de México, Monterrey NL, Guadalajara Ja",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:13:43.39"
+    },
+    {
+        "id": 19,
+        "name": "Consulta Mitofsky",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "http://www.consulta.mx",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-21T03:46:21.87"
+    },
+    {
+        "id": 20,
+        "name": "Coparmex",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://coparmex.org.mx",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-21T03:47:40.0433333"
+    },
+    {
+        "id": 21,
+        "name": "Delphos Nudge Unit",
+        "logoUrl": "https://delphos.nu/site/wp-content/uploads/delphos_logo_150.png",
+        "siteUrl": "https://delphos.nu",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:21:39.3466667"
+    },
+    {
+        "id": 22,
+        "name": "Grupo Azcal",
+        "logoUrl": "https://az2lab.mx/wp-content/uploads/2018/05/Logo-Largo-G-N-3.png",
+        "siteUrl": "https://az2.mx",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:23:41.11"
+    },
+    {
+        "id": 23,
+        "name": "Indemerc",
+        "logoUrl": "http://indemerc.com/imagenes/template/logo2.gif",
+        "siteUrl": "http://indemerc.com/fr_recursos.htm",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:25:24.2066667"
+    },
+    {
+        "id": 24,
+        "name": "Marketing Makers",
+        "logoUrl": "http://indemerc.com/imagenes/template/logo2.gif",
+        "siteUrl": "https://az2.mx",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:27:44.14"
+    },
+    {
+        "id": 25,
+        "name": "M & S Social Research & Consulting",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://tinyurl.com/2sutxhcy",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-22T15:29:34.29"
+    },
+    {
+        "id": 26,
+        "name": "Parametria",
+        "logoUrl": "https://parametria.com.mx/wp-content/uploads/2021/04/logo.png",
+        "siteUrl": "https://parametria.com.mx",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:36:30.2066667"
+    },
+    {
+        "id": 27,
+        "name": "Reforma",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://gruporeforma-blogs.com/encuestas/?page_id=2635",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-22T15:31:04.5"
+    },
+    {
+        "id": 28,
+        "name": "Tag | Periodico Correo",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://www.tag-research.com.mx",
+        "location": "Ciudad de México, Leon, Gto",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-22T15:35:05.8666667"
+    },
+    {
+        "id": 29,
+        "name": "SIMO",
+        "logoUrl": "https://simomexico.com/images/simoLogo_dark.png",
+        "siteUrl": "https://simomexico.com",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:40:09.33"
+    },
+    {
+        "id": 30,
+        "name": "Ocaña Consultores",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://www.facebook.com/ocanaconsultores",
+        "location": "Veracruz, Veracruz",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-22T15:36:41.2733333"
+    },
+    {
+        "id": 31,
+        "name": "Impulsos Mercadotecnia S.C.",
+        "logoUrl": "http://www.impulsos.com.mx/img/main_device_image.png",
+        "siteUrl": "http://www.impulsos.com.mx/",
+        "location": "Virginia Boca del Rio, Veracruz",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:43:57.6066667"
+    },
+    {
+        "id": 32,
+        "name": "TResearch",
+        "logoUrl": "https://static.wixstatic.com/media/f72e65_0fcd1b7167bf4f70b12d38092bf6422b~mv2.png/v1/fill/w_370,h_103,al_c,usm_0.66_1.00_0.01,enc_auto/LOGO-TR-INT-TRANSPARENTE.png",
+        "siteUrl": "https://www.tresearch.mx",
+        "location": "(RACPEN) Aguascalientes, Aguascalientes",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:51:26.1566667"
+    },
+    {
+        "id": 33,
+        "name": "Investigación de Mercado INDEMER",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://tinyurl.com/2p8jcxbh",
+        "location": "(Miriam Viveros Viveros)  Veracruz",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-22T15:44:58.4066667"
+    },
+    {
+        "id": 34,
+        "name": "Editorial EDUCA Dot Com",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://www.facebook.com/editorialeducadc",
+        "location": "Xalapa, Veracruz",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-22T15:46:54.1966667"
+    },
+    {
+        "id": 35,
+        "name": "C&E Campaigns & Elections México",
+        "logoUrl": "https://static.wixstatic.com/media/194053_c8ad1c6ae2fb4000b73c6af01e251817~mv2.png/v1/fill/w_161,h_113,al_c,usm_0.66_1.00_0.01,enc_auto/logo_C%2526E%2520mexico-01_edited.png",
+        "siteUrl": "https://www.ceonline.com.mx/",
+        "location": "Puebla, Puebla",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T04:54:20.1366667"
+    },
+    {
+        "id": 36,
+        "name": "Opimática",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://tinyurl.com/rz8ryfts",
+        "location": "Consejería en Manejo de Recursos SA de CV, Veracruz",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-22T16:00:44.1866667"
+    },
+    {
+        "id": 37,
+        "name": "Grupo Consultor Santoyo y Asociados",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://www.facebook.com/GrupoConsultorSantoyoYAsociados",
+        "location": "Xalapa, Veracruz",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-22T16:02:17.47"
+    },
+    {
+        "id": 38,
+        "name": "Covarrubias y Asociados S.C.",
+        "logoUrl": "https://sabervotar.mx/blog/wp-content/uploads/2021/05/voto-google-elecciones-mexico-ine-1.jpg",
+        "siteUrl": "https://www.facebook.com/CovarrubiasyAsociados",
+        "location": "Ciudad de México",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-22T16:03:34.2233333"
+    },
+    {
+        "id": 39,
+        "name": "LaEcuesta.mx",
+        "logoUrl": "https://laencuesta.mx/sitio/wp-content/uploads/2020/09/cropped-cropped-IMG_1292-1.png",
+        "siteUrl": "https://laencuesta.mx/sitio/",
+        "location": "Social Listening and Strategy S.A.S de C.V",
+        "dateCreated": "2022-04-14T01:38:23.16",
+        "dateModified": "2022-04-14T05:03:22.67"
+    }
+
+]
