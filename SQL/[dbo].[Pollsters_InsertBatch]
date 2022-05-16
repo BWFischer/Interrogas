@@ -1,0 +1,92 @@
+USE [Interrogas]
+GO
+/****** Object:  StoredProcedure [dbo].[Pollsters_InsertBatch]    Script Date: 5/15/2022 5:30:19 PM ******/
+
+/* =============================================
+-- Author: <Barnett Fischer>
+-- Create date: <03-24-2022>
+-- Description: Batch Insert of Multiple Records Contolling Id Numbers
+-- Code Reviewer: Justin Alcala
+
+-- MODIFIED BY: author
+-- MODIFIED DATE:12/1/2020
+-- Code Reviewer: Justin Alcala
+-- Note:
+-- ============================================*/
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER PROC [dbo].[Pollsters_InsertBatch]
+				@pollstersTable dbo.PollstersDataTable READONLY
+
+AS
+
+BEGIN 
+
+/*
+Declare @pollstersTable dbo.PollstersDataTable
+
+insert into @pollstersTable
+Values 
+
+/* Records 1 - 9 Revoved as Proprietary */
+(10,'Massive Caller','abcd.com','https://www.massivecaller.com','Monterrey , NL'),
+(11,'Maxmaf','abcd.com','https://maxmaf.com','Monterrey N.L.'),
+(12,'Mediametria','abcd.com','https://www.mediametria.com','Veracruz'),
+(13,'Metrica','abcd.com',NULL,'Oaxaca'),
+(14,'Poligrama','abcd.com','https://www.poligrama.mx', 'Monterrey N.L.'),
+(15,'Polymetrix','abcd.com','https://www.polymetrix.mx/','Guadalajara, Jal'),
+(16,'Proyecta','abcd.com','https://www.facebook.com/somosproyecta','Colima, Col'),
+(17,'Buendia & Laredo','abcd.com','https://buendiaymarquez.org','Ciudad de México'),
+(18,'Berumen','abcd.com','https://berumen.com.mx','Ciudad de México, Monterrey NL, Guadalajara Jal'),
+(19,'Consulta Mitofsky','abcd.com','http://www.consulta.mx','Ciudad de México'),
+(20,'Coparmex','abcd.com','https://coparmex.org.mx','Ciudad de México'),
+(21,'Delphos Nudge Unit','abcd.com','https://delphos.nu','Ciudad de México'),
+(22,'Grupo Azcal','abcd.com','https://az2.mx','Ciudad de México'),
+(23,'Indemerc','abcd.com','http://indemerc.com/fr_recursos.htm','Ciudad de México'),
+(24,'Marketing Makers','abcd.com','https://az2.mx','Ciudad de México'),
+(25,'Moreno & Sotnikova Social Research and Consulting','abcd.com',NULL,'Ciudad de México'),
+(26,'Parametria','abcd.com','https://parametria.com.mx','Ciudad de México'),
+(27,'Reforma','abcd.com','https://gruporeforma-blogs.com/encuestas/?page_id=2635','Ciudad de México'),
+(28,'Tag | Periodico Correo','abcd.com','https://www.tag-research.com.mx','Ciudad de México, Leon, Gto'),
+(29,'SIMO','abcd.com','https://simomexico.com','Ciudad de México'),
+(30,'Ocaña Consultores','abcd.com','https://www.facebook.com/ocanaconsultores','Veracruz, Veracruz'),
+(31,'Impulsos Mercadotecnia S.C.','abcd.com','http://www.impulsos.com.mx/','Virginia Boca del Rio, Veracruz'),
+(32,'TResearch','abcd.com','https://www.tresearch.mx','(RACPEN) Aguascalientes, Aguascalientes'),
+(33,'Investigación de Mercado INDEMER','abcd.com',NULL,'(Miriam Viveros Viveros)  Veracruz'),
+(34,'Editorial EDUCA Dot Com','abcd.com','https://www.facebook.com/editorialeducadc','Xalapa, Veracruz'),
+(35,'C&E Campaigns & Elections México','abcd.com','https://www.ceonline.com.mx/','Puebla, Puebla'),
+(36,'Opimática','abcd.com',NULL,'Consejería en Manejo de Recursos SA de CV, Veracruz'),
+(37,'Grupo Consultor Santoyo y Asociados','abcd.com','https://www.facebook.com/GrupoConsultorSantoyoYAsociados','Xalapa, Veracruz'),
+(38,'Covarrubias y Asociados S.C.','abcd.com','https://www.facebook.com/CovarrubiasyAsociados','Ciudad de México'),
+(39,'LaEcuesta.mx','abcd.com','https://laencuesta.mx/sitio/','Social Listening and Strategy S.A.S de C.V')
+		
+	Select * from @pollstersTable
+
+	Execute dbo.Pollsters_InsertBatch
+			@pollstersTable	
+
+*/
+
+SET IDENTITY_INSERT dbo.Pollsters ON
+
+INSERT INTO [dbo].[Pollsters]
+				([Id]
+				,[Name]
+				,[LogoUrl]
+				,[SiteUrl]
+				,[Location]
+				)
+
+	Select pt.Id
+		   ,pt.Name
+		   ,pt.LogoUrl
+		   ,pt.SiteUrl
+		   ,pt.Location
+	From @pollstersTable as pt
+
+SET IDENTITY_INSERT dbo.Pollsters OFF
+				END
